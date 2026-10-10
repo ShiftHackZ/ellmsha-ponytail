@@ -1,3 +1,45 @@
+<!-- ELLMSHA FORK INTRO -->
+# Ponytail — eLLMsha integration fork
+
+**Engineering skills favoring simple solutions and limited complexity.**
+
+| Provenance | Value |
+| --- | --- |
+| Original project | [Ponytail](https://github.com/DietrichGebert/ponytail) |
+| Upstream baseline | `v5.1.0 · 9cc65d0` |
+| Baseline revision | `9cc65d03aa2da1db7121b912d03596409ee340b8` |
+| Harness patch label | 0 |
+
+## Why this fork exists
+
+Included as a shared skill pack in eLLMsha; upstream guidance remains credited below.
+
+```mermaid
+flowchart LR
+  Harness[eLLMsha harness] --> Component[Ponytail]
+  Component --> Work[Project work]
+```
+
+## Build and integration
+
+The parent harness packages the `skills` directory. Skills do not override runtime permissions.
+
+The parent repository's installer and integration checks are authoritative for the bundled product. A passing upstream test suite alone does not prove eLLMsha integration acceptance. This local documentation update does not publish a release or make unpublished revisions available remotely.
+
+## Contributing
+
+Keep changes focused, preserve upstream licenses and notices, and separate an upstream version update from a harness patch. Record both in the parent application's About provenance. Do not commit credentials, user profiles or commercial project contents. Validate behavior on the platform being changed.
+
+## License and credits
+
+See [LICENSE](LICENSE). Original authors and their license terms remain unchanged. **Moroz Inc.** maintains the eLLMsha integration.
+
+---
+
+## Upstream documentation
+
+<!-- END ELLMSHA FORK INTRO -->
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
