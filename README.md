@@ -6,8 +6,8 @@
 | Provenance | Value |
 | --- | --- |
 | Original project | [Ponytail](https://github.com/DietrichGebert/ponytail) |
-| Upstream baseline | `v5.1.0 · 9cc65d0` |
-| Baseline revision | `9cc65d03aa2da1db7121b912d03596409ee340b8` |
+| Upstream baseline | `v5.2.0 · 2961b52` |
+| Baseline revision | `2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5` |
 | Harness patch label | 0 |
 
 ## Why this fork exists
@@ -63,6 +63,10 @@ See [LICENSE](LICENSE). Original authors and their license terms remain unchange
   <img src="https://img.shields.io/npm/v/@dietrichgebert/ponytail?style=flat-square&color=111111&label=npm" alt="npm">
   <img src="https://img.shields.io/badge/works%20with-20%20agents-111111?style=flat-square" alt="Works with 20 agents">
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="MIT license">
+</p>
+
+<p align="center">
+  <a href="https://ponytail.dev/stories"><img src="assets/stories-banner.png" alt="Using Ponytail at work? Tell us your story" width="760"></a>
 </p>
 
 <p align="center">
@@ -202,7 +206,7 @@ Only install ponytail from `DietrichGebert/ponytail` on GitHub or `@dietrichgebe
 | `/ponytail-gain` | Show the measured impact scoreboard (less code, less cost, more speed) from the benchmark. |
 | `/ponytail-help` | Quick reference for the commands above. |
 
-Commands need a skill-capable host (Claude Code, Codex, Devin CLI, OpenCode, Gemini, pi, Hermes Agent, Qoder, Grok Build). In Codex CLI and the IDE extension they're skills under the plugin's namespace; invoke with `$ponytail:ponytail-review`. Cursor with the [hooks](INSTALL.md#cursor) gets `/ponytail` level switching only, typed as a plain message. The instruction-only adapters (Cursor's rule file, Windsurf, Cline, Copilot, Kiro, Antigravity) load the always-on ruleset without the commands.
+Commands need a skill-capable host (Claude Code, Codex, Devin CLI, OpenCode, Gemini, Antigravity CLI, pi, Hermes Agent, Qoder, Grok Build). In Codex CLI and the IDE extension they're skills under the plugin's namespace; invoke with `$ponytail:ponytail-review`. Cursor with the [hooks](INSTALL.md#cursor) gets `/ponytail` level switching only, typed as a plain message. The instruction-only adapters (Cursor's rule file, Windsurf, Cline, Copilot, Kiro, Antigravity's `AGENTS.md` fallback) load the always-on ruleset without the commands.
 
 ## FAQ
 
